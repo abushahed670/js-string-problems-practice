@@ -1,16 +1,27 @@
-// const fibo = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 ]
-/* 
-    fibo[3] = fibo[2] + fibo[1]
-    fibo[4] = fibo[3] + fibo[2]
-    fibo[5] = fibo[4] + fibo[3]
-    fibo[50] = fibo[49] + fibo[48]
-    fibo[487] = fibo[486] + fibo[485]
-    fibo[n] = fibo[n-1] + fibo[n-2]
-    fibo[i] = fibo[i-1] + fibo[i-2]
-*/
+//case sansative practice.....here doing practice k capital & small...
 
-const fibo = [0, 1];
-for (let i = 2; i <= 25; i++) {
-    fibo[i] = fibo[i - 1] + fibo[i - 2];
+
+// const userName = 'blackpink';
+// const userInput = 'blackpinK';
+// if (userName === userInput) {
+//     console.log('valid user');
+// }
+// else {
+//     console.log('invalid user');
+// }
+
+//to make all lowercase and upercase....& make case valid. case sansative
+
+
+const userName = 'blackpink';
+const userInput = 'blackpinK';
+console.log(userName.toLowerCase());//for lower case
+console.log(userInput.toUpperCase());// for upper case
+console.log(userName.toLocaleLowerCase());//for local upper case
+if (userName.toLowerCase() === userInput.toLocaleLowerCase()) {
+    console.log('valid user');
 }
-console.log(fibo);
+else {
+    console.log('invalid user');
+}
+
