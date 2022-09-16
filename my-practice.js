@@ -117,20 +117,45 @@
 
 //to get full number of divided number...use round
 
-const number = 2.4567764;
-const fullNumber = Math.round(number);
-// console.log(fullNumber);
-const result2 = Math.ceil(2.00001);// ceil...Returns the smallest integer greater than or equal to its numeric argument.eta just dosomikm er boro porno sonka ta dei
-console.log(result2);
+// const number = 2.4567764;
+// const fullNumber = Math.round(number);
+// // console.log(fullNumber);
+// const result2 = Math.ceil(2.00001);// ceil...Returns the smallest integer greater than or equal to its numeric argument.eta just dosomikm er boro porno sonka ta dei
+// console.log(result2);
 
-const result3 = Math.floor(456.78688);//A numeric expression.Returns the greatest integer less than or equal to its numeric argument. eta just dosomoi bad diye porno sonkha ta dei..
-console.log(result3);
+// const result3 = Math.floor(456.78688);//A numeric expression.Returns the greatest integer less than or equal to its numeric argument. eta just dosomoi bad diye porno sonkha ta dei..
+// console.log(result3);
 
 
-// random...
+// // random...
 
-console.log(Math.random());//it gives random rumber
+// console.log(Math.random());//it gives random rumber
 
-// const random = Math.random() * 100;//it gives 1 to 100 number.
-const random = Math.round(Math.random() * 100);// to get full number
-console.log(random);
+// // const random = Math.random() * 100;//it gives 1 to 100 number.
+// const random = Math.round(Math.random() * 100);// to get full number
+// console.log(random);
+
+
+
+//swap...that means change the value... use temp...
+
+
+// let first = 5;
+// let second = 7;
+// console.log(first, second);
+// // this is wrong approch
+// // first = second;
+// // second = first;
+// // console.log(first, second);// to solve this problem i have to use temp..
+// const temp = first;
+// first = second;
+// second = temp;
+
+// console.log(first, second);
+
+// // destruction... to change the opposite  to temp...using this as like swap...
+
+// [first, second] = [second, first];
+
+// console.log(first, second);
+
