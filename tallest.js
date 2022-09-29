@@ -1,9 +1,9 @@
-function maxInArray(numbers){
+function maxInArray(numbers) {
     let largest = numbers[0];
-    for(let i = 0; i < numbers.length; i++){
+    for (let i = 0; i < numbers.length; i++) {
         const index = i;
         const element = numbers[index];
-        if(element > largest){
+        if (element > largest) {
             largest = element;
         }
     }
@@ -15,4 +15,4 @@ const tallest = maxInArray(heights);
 console.log('tallest person is: ', tallest);
 
 
-// Homework: Write a function to get the lowest number in an array
+//Homework: Write a function to get the lowest number in an array

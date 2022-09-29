@@ -159,3 +159,98 @@
 
 // console.log(first, second);
 
+//max..finding max value for 2 varialble
+
+// const jim = 84;
+// const dela = 75;
+// if (jim > dela) {
+//     console.log('jim get the cale');
+// }
+// else {
+//     console.log('dela get the cake');
+// }
+
+// const jim = 84;
+// const dela = 99;
+// const jinku = 77;
+// if (jim > dela && jim > jinku) {
+//     console.log('jim get the cale');
+// }
+// else if (dela > jim && dela > jinku) {
+//     console.log('dela get the cake');
+// }
+// else {
+//     console.log('jinku get the cake');
+// }
+
+//this is my logic & its true...
+// const jim = 84;
+// const dela = 99;
+// const jinku = 77;
+// if (jim > dela && dela > jinku) {
+//     console.log('jim get the cale');
+// }
+// else if (dela > jim && jim > jinku) {
+//     console.log('dela get the cake');
+// }
+// else{
+//     console.log('jinku get the cake');
+// }
+
+
+
+//another findout of max/tallest/highest useing function 
+
+// function maxInArray(Numbers) {
+//     // console.log('array inside the array', Numbers);
+//     let largest = Numbers[0];
+//     for (let i = 0; i < Numbers.length; i++) {
+//         // let largest = Numbers[0]; //its not best practice.. should return it out of for loop..if it use inside the loop return must be use inside the loop
+//         const index = i;
+//         const element = Numbers[index];
+//         // console.log(element);
+//         if (element > largest) {
+//             largest = element;
+//         }
+//         // return largest;// its not best practice.. should return it out of loop
+
+//     }
+//     return largest;
+
+// }
+// const heights = [167, 290, 165, 137, 349, 258];
+// const tallest = maxInArray(heights);
+// console.log('the talllest person is:', tallest);
+
+// finding smallest/lowest/min..........
+
+
+// function minInArray(numbers){
+//     let lowest= numbers[0];
+//     for(i = 0; i < numbers.length; i--){
+//         const index = i;
+//         const element = numbers[index];
+//         if(element > lowest){
+//             lowest = element;
+//         }
+        
+//     }
+//     return lowest;
+// }
+// const smallest=[45, 34, 23, 345, 456, 56];
+//     const shortest = minInArray(smallest);
+//     console.log('the shortest person is', shortest);
+// // condition e ashtese na...pore try korbo
+
+
+
+//reverse string
+
+function reverseString(text){
+for(let i= 0; i < text.lenght; i++){
+    const element = text[i];
+    console.log(element);
+}
+}
+const myString = 'I am a good person';
+const reversed = reverseString(myString);
